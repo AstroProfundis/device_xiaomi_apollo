@@ -94,4 +94,7 @@ void vendor_load_properties() {
 
     property_override("ro.build.fingerprint", "google/redfin/redfin:12/SQ1A.220105.002/7961164:user/release-keys");
     property_override("ro.build.description", "apollo-user 11 RKQ1.200826.002 V12.5.7.0.RJDMIXM release-keys");
+
+    // Safetyet Workaround
+    property_override("ro.boot.verifiedbootstate", "green");
 }
