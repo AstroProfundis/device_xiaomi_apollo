@@ -1,17 +1,17 @@
 [
   {
-    "repository": "platform_hardware_xiaomi",
-    "target_path": "hardware/xiaomi"
+    "repository": "vendor_xiaomi_apollo",
+    "target_path": "vendor/xiaomi/apollo",
+    "remote": "streak-devices"
   },
   {
     "repository": "kernel_xiaomi_sm8250",
     "target_path": "kernel/xiaomi/sm8250",
     "remote": "streak-devices"
   },
-  {
-    "repository": "vendor_xiaomi_sm8250-common",
-    "target_path": "vendor/xiaomi/sm8250-common",
-    "remote": "streak-devices"
+    {
+    "repository": "platform_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
   },
   {
     "repository": "ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r437112",
