@@ -2,5 +2,3 @@
 vendor_public_prop(deviceid_prop)
 
 vendor_public_prop(vendor_fp_prop)
-
-vendor_public_prop(vendor_motor_prop)
