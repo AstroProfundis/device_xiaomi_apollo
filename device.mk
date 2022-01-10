@@ -479,10 +479,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_CFI_INCLUDE_PATHS += \
     hardware/qcom-caf/wlan/qcwcn/wpa_supplicant_8_lib
 
-# Wlan
-PRODUCT_CFI_INCLUDE_PATHS += \
-    hardware/qcom-caf/wlan/qcwcn/wpa_supplicant_8_lib
-
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Inherit the proprietary files
