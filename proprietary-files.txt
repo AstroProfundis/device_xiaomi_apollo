@@ -90,7 +90,7 @@ vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
 
 # Audio hardware
-vendor/lib/hw/audio.primary.kona.so
+vendor/lib/hw/audio.primary.kona.so|6ed8adcbf700f8b66681f782f1b620a675c58877
 vendor/lib/vndk/libxlog.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
