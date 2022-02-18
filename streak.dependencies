@@ -12,10 +12,5 @@
     "repository": "platform_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
     "remote": "streak"
-  },
-  {
-    "repository": "platform_platform_prebuilts_clang_host_linux-x86_clang-r437112",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-r437112",
-    "clone-depth": "1"
   }
 ]
