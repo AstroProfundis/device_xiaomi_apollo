@@ -17,11 +17,11 @@ $(call inherit-product, device/xiaomi/apollo/device.mk)
 PRODUCT_NAME := streak_apollo
 PRODUCT_DEVICE := apollo
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi Mi 10T
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi K30s Ultra
 
 # ProjectStreak properties
-STREAK_BUILD_TYPE := OFFICIAL
+STREAK_BUILD_TYPE := Unofficial
 TARGET_BOOT_ANIMATION_RES := 1440
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
