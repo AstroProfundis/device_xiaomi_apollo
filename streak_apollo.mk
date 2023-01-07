@@ -22,6 +22,6 @@ PRODUCT_MODEL := Redmi K30s Ultra
 
 # ProjectStreak properties
 STREAK_BUILD_TYPE := Unofficial
-TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
