@@ -24,7 +24,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_apollon
 TARGET_RECOVERY_DEVICE_MODULES := libinit_apollon
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/arrow_apollo_defconfig
+TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
 
 # LED
 TARGET_LED_WHITE_ONLY := true

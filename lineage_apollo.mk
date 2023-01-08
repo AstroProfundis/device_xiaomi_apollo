@@ -12,20 +12,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/apollo/device.mk)
 
 # Inherit some common NusantaraProject stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 TARGET_USES_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 USE_PIXEL_CHARGING := true
-NAD_BUILD_TYPE ?= UNOFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_GAPPS ?= true
 USE_AOSP_CLOCK := true
 
 # Product
-PRODUCT_NAME := nad_apollo
+PRODUCT_NAME := lineage_apollo
 PRODUCT_DEVICE := apollo
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := Xiaomi
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi K30s Ultra
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
